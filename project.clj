@@ -9,6 +9,7 @@
                  [org.apache.commons/commons-csv "1.5"]
                  [org.clojure/data.csv "0.1.4"] ;; does not escape the special chars
                  [aysylu/loom "0.5.4"]
+                 [mount "0.1.12"]
                  [clj-http "3.9.0"]]
   :profiles {:dev {:source-paths ["dev" "src" "test"]} 
              :dependencies [[org.clojure/tools.namespace "0.2.11"]
