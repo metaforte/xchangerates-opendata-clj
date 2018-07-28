@@ -9,7 +9,11 @@
                  [org.apache.commons/commons-csv "1.5"]
                  [org.clojure/data.csv "0.1.4"] ;; does not escape the special chars
                  [aysylu/loom "0.5.4"]
-                 [clj-http "3.9.0"]]
+                 [mount "0.1.12"]
+                 [compojure "1.5.2"]
+                 [http-kit "2.2.0"]
+                 [clj-http "3.9.0"]
+                 [javax.servlet/servlet-api "2.5"]]
   :profiles {:dev {:source-paths ["dev" "src" "test"]} 
              :dependencies [[org.clojure/tools.namespace "0.2.11"]
                             [pjstadig/humane-test-output "0.7.1"]]
